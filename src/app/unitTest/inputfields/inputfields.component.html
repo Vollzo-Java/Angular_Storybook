@@ -1,0 +1,13 @@
+<p>inputfields works!</p>
+<form [formGroup]="forms" (ngSubmit)="onSubmit()">
+    <vollzo-input placeholder="{{placeholder}}"></vollzo-input>
+  <p>
+   <!-- <vollzo-email-input emailPlaceholder="{{emailPlaceholder}}"></vollzo-email-input>-->
+  </p>   
+    <p>
+        Value: 
+      </p>
+    <button>Update Name</button>
+</form>
+{{ fieldVal | json }}
+
