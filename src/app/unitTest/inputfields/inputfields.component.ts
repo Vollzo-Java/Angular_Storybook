@@ -11,15 +11,22 @@ export class InputfieldsComponent implements OnInit {
   constructor() {
     this.forms = new FormGroup({
       inputControlName : new FormControl(''),
-      emailController : new FormControl('')
+      emailController : new FormControl(''),
+      textareaController: new FormControl(''),
+      checkboxController: new FormControl(''),
+      primaryButtonController: new FormControl(''),
+      secondaryButtonController: new FormControl(''),
+
      })
   }
   
   placeholder : any;
   emailPlaceholder : any;
+  textareaPlaceholder: any;
   ngOnInit(): void {
    this.placeholder = 'Enter Name';
    this.emailPlaceholder = 'Enter Email Id.'
+   this.textareaPlaceholder = 'Textarea text.'
    
   }
   fieldVal : any;

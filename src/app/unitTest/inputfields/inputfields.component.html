@@ -1,8 +1,19 @@
-<p>inputfields works!</p>
-<form [formGroup]="forms" (ngSubmit)="onSubmit()">
+<h1>Reusable Components:</h1 >
+<form [formGroup]="forms" (ngSubmit)="onSubmit()" class="vollzo-form">
     <vollzo-input placeholder="{{placeholder}}"></vollzo-input>
   <p>
-   <!-- <vollzo-email-input emailPlaceholder="{{emailPlaceholder}}"></vollzo-email-input>-->
+    <vollzo-email-input emailPlaceholder="{{emailPlaceholder}}"></vollzo-email-input>
+  </p>  
+  <p>
+    <vollzo-text-area textareaPlaceholder="{{textareaPlaceholder}}"></vollzo-text-area>
+  </p>  
+  <p>
+    <vollzo-checkbox></vollzo-checkbox>
+  </p> 
+  <p>
+    <vollzo-primary-button></vollzo-primary-button>&nbsp;
+    <vollzo-secondary-button></vollzo-secondary-button>
+
   </p>   
     <p>
         Value: 

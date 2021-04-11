@@ -6,13 +6,28 @@ import { AppComponent } from './app.component';
 import { VollzoInputComponent } from './vollzo-uif/vollzo-input/vollzo-input.component';
 import { VollzoInputEmailComponent } from './vollzo-uif/vollzo-input/vollzo-input.component';
 import { InputfieldsComponent } from './unitTest/inputfields/inputfields.component';
+import { VollzoTextareaComponent } from './vollzo-uif/vollzo-input/vollzo-input.component';
+import { VollzoCheckboxComponent } from './vollzo-uif/vollzo-input/vollzo-input.component';
+import { VollzoPrimaryButtonComponent } from './vollzo-uif/vollzo-input/vollzo-input.component';
+import { VollzoSecondaryButtonComponent } from './vollzo-uif/vollzo-input/vollzo-input.component';
+import { PocComponent } from './poc/poc.component';
+
+
+
+
+
 
 @NgModule({
   declarations: [
     AppComponent,
     VollzoInputComponent,
     VollzoInputEmailComponent,
-    InputfieldsComponent
+    InputfieldsComponent,
+    VollzoTextareaComponent,
+    VollzoCheckboxComponent,
+    VollzoPrimaryButtonComponent,
+    VollzoSecondaryButtonComponent,
+    PocComponent
   ],
   imports: [
     BrowserModule,
